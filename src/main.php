@@ -2,4 +2,5 @@
 
 include "../vendor/autoload.php";
 
-echo "Hello World";
+$vm =  new \phpVm\Machine();
+$vm->run();
